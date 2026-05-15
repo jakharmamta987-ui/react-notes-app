@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.note-item {
+  background-color: #2c2c2c;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.note-item p {
+  margin: 0 0 10px 0;
+}
+
+.note-item button {
+  margin-right: 10px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.note-item button:first-of-type {
+  background-color: crimson;
+  color: white;
+}
+
+.note-item button:last-of-type {
+  background-color: royalblue;
+  color: white;
+}
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background: #2c2c2c;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.filter-buttons button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.clear-btn {
+  padding: 8px 14px;
+  margin-bottom: 15px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.clear-btn:hover {
+  background-color: #e60000;
+}
+.clear-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+.note-item small {
+  display: block;
+  color: #aaa;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.active-filter {
+  background-color: royalblue;
+  color: white;
+}
+.empty-message {
+  text-align: center;
+  color: #aaa;
+  margin-top: 15px;
+}
